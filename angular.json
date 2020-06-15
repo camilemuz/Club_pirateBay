@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "piratebay"
+    }
+  },
+  "defaultProject": "piratebay",
+  "cli": {
+    "analytics": "3eabff71-53fa-42d0-a4d2-734d70ef9aeb"
+  }
 }
