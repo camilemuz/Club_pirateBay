@@ -1,0 +1,91 @@
+<!--<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">userid</th>
+        <th scope="col">username</th>
+        <th scope="col">email</th>
+        <th scope="col">phoneNumber</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <th scope="row">{{user.userId}}</th>
+        <td>{{user.username}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.phoneNumber}}</td>
+        <td>{{user.catUserStatus}}</td>
+      </tr>
+    </tbody>
+  </table>-->
+
+  <!DOCTYPE html >
+
+<html >
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Gestión de Usuarios</title>
+<link href="gestion-usuario.component.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+            <h1>PirateBay </h1>
+			
+			
+		</div>
+	</div>
+    <div id="banner">&nbsp;
+           
+        
+            
+            <table class="tg">
+                    <thead>
+                      <tr>
+                        <th scope="col">userid</th>
+                        <th scope="col">username</th>
+                        <th scope="col">email</th>
+                        <th scope="col">phoneNumber</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let user of users">
+                        <th scope="row">{{user.userId}}</th>
+                        <td>{{user.username}}</td>
+                        <td>{{user.email}}</td>
+                        <td>{{user.phoneNumber}}</td>
+                        <td>{{user.catUserStatus}}</td>
+                      </tr>
+                    </tbody>
+                    </table>
+                    
+                   
+                   
+                   </div>
+                   <div class="contenedor-div">
+                             <br>
+                               
+                        <button class="boton_personalizado" (click)= "getuser()">Actualizar Datos</button> 
+                               
+                    </div>     
+                    
+
+                    
+
+
+
+
+   
+	<!-- end #header -->
+	
+	
+</div>
+<div id="footer">
+	<p>Copyright (c) 2020 Todos los derechos reservados.</p>
+</div>
+
+</body>
+</html>
