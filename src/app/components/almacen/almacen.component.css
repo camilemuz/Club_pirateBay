@@ -240,7 +240,7 @@ a:hover {
 * {font-family: Helvetica Neue, Arial, sans-serif; }
 table {border-collapse: collapse;  width: 80%; margin: 0 auto 5rem; text-align: center;}
 
-th, td { padding: 1.5rem; font-size: 1.3rem; }
+th, td { padding: 1.1rem; font-size: 1.5rem; font-weight: 575;}
 
 tr {background: hsl(50, 50%, 80%); }
 
@@ -248,9 +248,9 @@ tr, td { transition: .4s ease-in; }
 
 tr:first-child {background: rgb(2, 37, 49); }
 
-tr:nth-child(even) { background: hsla(50, 50%, 80%, 0.7); }
+tr:nth-child(even) { background: hsla(50, 50%, 80%); }
 
-td:empty {background: hsla(50, 25%, 60%, 0.7); }
+td:empty {background: hsla(50, 50%, 80%); }
 
 tr:hover:not(#firstrow), tr:hover td:empty {background:rgb(2, 37, 49); pointer-events: visible;}
-tr:hover:not(#firstrow) { transform: scale(1.2); font-weight: 700; box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);}
+tr:hover:not(#firstrow) { transform: scale(1.2); font-weight: 700; box-shadow: 0px 25px 7px rgba(0, 0, 0, 0.5);}
