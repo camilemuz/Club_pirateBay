@@ -8,13 +8,15 @@ import { LoginComponent } from './components/login/login.component';
 import { MainComponent } from './components/main/main.component';
 import { HttpClient } from '@angular/common/http';
 import { GestionUsuarioComponent } from './components/gestion-usuario/gestion-usuario.component';
+import { KardexComponent } from './components/kardex/kardex.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     MainComponent,
-    GestionUsuarioComponent
+    GestionUsuarioComponent,
+    KardexComponent
   ],
   imports: [
     BrowserModule,
