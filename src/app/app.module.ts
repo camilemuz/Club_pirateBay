@@ -10,6 +10,7 @@ import { HttpClient } from '@angular/common/http';
 import { GestionUsuarioComponent } from './components/gestion-usuario/gestion-usuario.component';
 import { KardexComponent } from './components/kardex/kardex.component';
 import { AlmacenComponent } from './components/almacen/almacen.component';
+import { PepsComponent } from './components/peps/peps.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AlmacenComponent } from './components/almacen/almacen.component';
     MainComponent,
     GestionUsuarioComponent,
     KardexComponent,
-    AlmacenComponent
+    AlmacenComponent,
+    PepsComponent
   ],
   imports: [
     BrowserModule,
